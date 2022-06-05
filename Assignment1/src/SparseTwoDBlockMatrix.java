@@ -25,7 +25,7 @@ public class SparseTwoDBlockMatrix extends TwoDBlockMatrix{
 	}
 	public SparseTwoDBlockMatrix multiply ( SparseTwoDBlockMatrix other) throws IncompatibleDimensionException{
 		TwoDBlockMatrix d=new TwoDBlockMatrix(this.array);
-		TwoDBlockMatrix f=new TwoDBlockMatrix(this.array);
+		TwoDBlockMatrix f=new TwoDBlockMatrix(other.array);
 		TwoDBlockMatrix temp=d.multiply(f);
 		SparseTwoDBlockMatrix s= new SparseTwoDBlockMatrix(temp.array);
 		return s;
