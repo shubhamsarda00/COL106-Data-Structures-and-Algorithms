@@ -1,4 +1,4 @@
-package col106.assignment3.Election;
+package Assignment3.Election;
 
 import java.io.*;
 import java.net.URL;
