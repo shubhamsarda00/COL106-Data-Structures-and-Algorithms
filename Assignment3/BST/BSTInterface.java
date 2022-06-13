@@ -20,7 +20,7 @@ void insert ( T key , E value ) ;
  void update(T key, E value);
  /**
  *
- * Delete element using value
+ * Delete element using key
  * @param key
  */
  void delete ( T key ) ;
