@@ -8,8 +8,7 @@ public class Heap<T, E extends Comparable> implements HeapInterface <T, E> {
 	 * If anything tempered your marks will be directly cut to zero
 	*/
 	public static void main() {
-		HeapDriverCode HDC = new HeapDriverCode();
-		System.setOut(HDC.fileout());
+
 		/*Heap<Integer,Integer> h=new Heap<Integer, Integer>();
 		h.insert(1, 100);
 		h.insert(2, 10);
