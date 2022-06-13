@@ -1,11 +1,11 @@
-package col106.assignment4.Map;
+package Assignment4.src.Map;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.PrintStream;
 
-import col106.assignment4.HashMap.HashMap;
-import col106.assignment4.WeakAVLMap.WeakAVLMap;
+import Assignment4.src.HashMap.HashMap;
+import Assignment4.src.WeakAVLMap.WeakAVLMap;
 public class Map<V> {
 	private long wi=0;
 	private long wd=0;
@@ -13,7 +13,7 @@ public class Map<V> {
 	private long hd=0;
 	/*public static void main (String[] args) {
 		Map<Integer> m= new Map<Integer>();
-		m.eval("C:\\Users\\hp\\Desktop\\Shubham\\IITD\\Sem4\\COL106\\Assignment4\\Checker\\col106\\assignment4\\Map\\map_input", "map_output");
+		m.eval("Assignment4\\src\\Map\\map_input", "map_output");
 	}*/
 	public Map() {
 		// write your code here	
