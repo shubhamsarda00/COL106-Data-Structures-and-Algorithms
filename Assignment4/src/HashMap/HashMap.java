@@ -82,31 +82,31 @@ public class HashMap<V> implements HashMapInterface<V> {
 		int h=hashfunc(key);
 		hashnode q=null;
 		while(true) {
-		q=htable.get(h);	
-		if(q.key==null) {
-			//if(temp==-1) {
-			q.key=key;
-			q.value=value;
-			return null;
-			//}
-			/*else {
-				htable.get(temp).key=key;
-				htable.get(temp).value=value;
+			q=htable.get(h);	
+			if(q.key==null) {
+				//if(temp==-1) {
+				q.key=key;
+				q.value=value;
 				return null;
+				//}
+				/*else {
+					htable.get(temp).key=key;
+					htable.get(temp).value=value;
+					return null;
+				}*/
+			}
+			/*if(temp==-1) {
+			if(q.key.equals(dummy)) {
+				temp=h;
+
+			}
 			}*/
-		}
-		/*if(temp==-1) {
-		if(q.key.equals(dummy)) {
-			temp=h;
-			
-		}
-		}*/
-		if(q.key.equals(key)) {
-			V val=q.value;
-			q.value=value;
-			return val;
-		}
-		h=(h+1)%this.size;
+			if(q.key.equals(key)) {
+				V val=q.value;
+				q.value=value;
+				return val;
+			}
+			h=(h+1)%this.size;
 		}
 	}
 
