@@ -137,18 +137,21 @@ public class HashMap<V> implements HashMapInterface<V> {
 		q.key=null;
 		q.value=null;
 		int i=h;
+		// t maintains the last empty slot
 		int t=i;
 		i=(i+1)%size;
 		
 		ArrayList<Integer> l=new ArrayList<Integer>();
 		l.add(i);
 		while(true) {
-			q=htable.get(i);	
+			q=htable.get(i);
+			//if the slot is empty, then we break since linear probing
 			if(q.key==null) {
 				break;
 			}
 			else {
 				int hh=hashfunc(q.key);
+				//If the hashcode belongs to any of the slots after the empty node, we don't need to shift, else we shift it to the last empty slot
 				if(l.contains(hh)) {
 					i=(i+1)%size;
 					l.add(i);
