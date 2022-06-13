@@ -1,4 +1,4 @@
-package Assignment3.BST ;
+package Assignment3.src.BST ;
 public interface BSTInterface <T, E extends Comparable>{
 /**
 * Note that here conventional roles of key and value have been exchanged 
