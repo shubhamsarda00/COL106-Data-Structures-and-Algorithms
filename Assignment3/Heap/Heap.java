@@ -1,4 +1,4 @@
-package col106.assignment3.Heap;
+package Assignment3.Heap;
 
 import java.util.ArrayList;
 public class Heap<T extends Comparable, E extends Comparable> implements HeapInterface <T, E> {
