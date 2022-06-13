@@ -1,8 +1,7 @@
-package col106.assignment3.Heap ;
+package Assignment3.Heap ;
 public interface HeapInterface <T, E extends Comparable>{
 /**
-* Insert an element using the "key" as the key and the
-corresponding value into the binary max heap.
+* Insert the {key,value} pair into the binary max heap.
 * The heap needs to be constructed w.r.t. value. 
 *
 * @param key
