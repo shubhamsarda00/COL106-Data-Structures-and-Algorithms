@@ -1,10 +1,10 @@
-package col106.assignment3.Election;
+package Assignment3.Election;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.LinkedList;
-import col106.assignment3.BST.BST;
-import col106.assignment3.BST.BST.node;
-import col106.assignment3.Heap.Heap;
+import Assignment3.BST.BST;
+import Assignment3.BST.BST.node;
+import Assignment3.Heap.Heap;
 
 
 public class Election implements ElectionInterface {
@@ -13,8 +13,7 @@ public class Election implements ElectionInterface {
 	 * If anything tempered your marks will be directly cut to zero
 	*/
 	public static void main(String[] args) {
-		//ElectionDriverCode EDC = new ElectionDriverCode();
-		//System.setOut(EDC.fileout());
+
 		/*
 		 INSERT
 Cand1, 1, S1, D11, C11, P1, 10
