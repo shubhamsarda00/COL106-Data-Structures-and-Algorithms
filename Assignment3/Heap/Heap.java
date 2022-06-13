@@ -100,21 +100,21 @@ public class Heap<T, E extends Comparable> implements HeapInterface <T, E> {
 					else {
 						break;
 						}
-					}
-					else {
-						if(myarray.get((k-1)/2).value.compareTo(value) < 0) {
-							swap(k,(k-1)/2);
-							k=(k-1)/2;
-							}
-						else {
-							break;
+				}
+				else {
+					if(myarray.get((k-1)/2).value.compareTo(value) < 0) {
+						swap(k,(k-1)/2);
+						k=(k-1)/2;
 						}
-						
+					else {
+						break;
 					}
+
 				}
 			}
-
 		}
+
+	}
 	public void insert(T key, E value) {
 		//write your code here
 		internalinsert(key,value);
