@@ -1,4 +1,4 @@
-package Assignment3.Heap ;
+package Assignment3.src.Heap ;
 public interface HeapInterface <T, E extends Comparable>{
 /**
 * Insert the {key,value} pair into the binary max heap.
