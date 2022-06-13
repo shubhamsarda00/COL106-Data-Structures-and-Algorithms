@@ -1,4 +1,4 @@
-package col106.assignment4.HashMap;
+package Assignment4.src.HashMap;
 
 public class WordCounter {
 	
