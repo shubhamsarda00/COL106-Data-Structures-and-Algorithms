@@ -1,4 +1,4 @@
-package col106.assignment3.BST;
+package Assignment3.BST;
 import java.util.LinkedList;
 
 
