@@ -1,4 +1,4 @@
-package Assignment3.BST;
+package Assignment3.src.BST;
 import java.util.LinkedList;
 
 public class BST<T, E extends Comparable> implements BSTInterface<T, E>  {
