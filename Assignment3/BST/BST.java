@@ -7,8 +7,7 @@ public class BST<T, E extends Comparable> implements BSTInterface<T, E>  {
 	 * If anything tempered your marks will be directly cut to zero
 	*/
 	public static void main() {
-		BSTDriverCode BDC = new BSTDriverCode();
-		System.setOut(BDC.fileout());
+
 		//BST<Integer,Integer> b=new BST<Integer, Integer>();
 		/*for(int i=0;i<1000;i++) {
 		b.insert(i, i);
