@@ -1,4 +1,4 @@
-package col106.assignment3.Heap;
+package Assignment3.Heap;
 
 import java.util.ArrayList;
 
@@ -180,7 +180,7 @@ public class Heap<T, E extends Comparable> implements HeapInterface <T, E> {
 		if(!b) { return -1;}
 		return j;
 		
-		}
+	}
 	public E getvalue(T key) {
 		if(size==0) {
 			return null;
