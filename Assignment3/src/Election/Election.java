@@ -1,10 +1,10 @@
-package Assignment3.Election;
+package Assignment3.src.Election;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.LinkedList;
-import Assignment3.BST.BST;
-import Assignment3.BST.BST.node;
-import Assignment3.Heap.Heap;
+import Assignment3.src.BST.BST;
+import Assignment3.src.BST.BST.node;
+import Assignment3.src.Heap.Heap;
 
 
 public class Election implements ElectionInterface {
