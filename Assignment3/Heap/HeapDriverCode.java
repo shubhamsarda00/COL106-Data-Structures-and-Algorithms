@@ -1,4 +1,4 @@
-package col106.assignment3.Heap;
+package Assignment3.Heap;
 
 import java.io.BufferedReader;
 import java.io.File;
