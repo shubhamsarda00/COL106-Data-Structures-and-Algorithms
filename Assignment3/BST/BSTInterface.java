@@ -1,9 +1,10 @@
 package Assignment3.BST ;
 public interface BSTInterface <T, E extends Comparable>{
 /**
-* Insert an element using the "key" as the key and the
-corresponding value .
-* Please note that value is a generic type and it can be
+* Note that here conventional roles of key and value have been exchanged 
+* Insert an element using the "value" as the comparator and the
+  corresponding value .
+* Please note that key is a generic type and it can be
 anything .
 *
 * @param key
@@ -19,7 +20,7 @@ void insert ( T key , E value ) ;
  void update(T key, E value);
  /**
  *
- * Delete element using key
+ * Delete element using value
  * @param key
  */
  void delete ( T key ) ;
