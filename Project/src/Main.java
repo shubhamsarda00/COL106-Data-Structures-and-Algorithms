@@ -1,4 +1,4 @@
-package col106.bigassignment;
+package Project.src;
 
 import java.io.DataInputStream;
 import java.io.FileInputStream;
@@ -8,9 +8,9 @@ import java.util.Collection;
 
 
 
-import col106.bigassignment.classifier.OneNNClassifier;
-import col106.bigassignment.index.MNIST_Image;
-import col106.bigassignment.index.VPTreeImpl;
+import Project.src.classifier.OneNNClassifier;
+import Project.src.index.MNIST_Image;
+import Project.src.index.VPTreeImpl;
 
 public class Main {
 
