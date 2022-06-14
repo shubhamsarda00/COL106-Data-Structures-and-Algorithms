@@ -1,4 +1,4 @@
-package col106.assignment6;
+package Assignment6.src;
 
 public class DualVertex {
 	Vertex i;
