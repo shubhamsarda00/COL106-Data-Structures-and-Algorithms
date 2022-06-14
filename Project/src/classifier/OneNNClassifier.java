@@ -34,9 +34,9 @@ public class OneNNClassifier implements Classifier  {
 		// TODO Auto-generated constructor stub
 		
 		c=new ArrayList<MNIST_Image>();
-		FileInputStream f = new FileInputStream("col106/bigassignment/Data/train_images");
+		FileInputStream f = new FileInputStream("Project/src/Data/train_images");
 		DataInputStream in = new DataInputStream(f);
-		FileInputStream f1 = new FileInputStream("col106/bigassignment/Data/train_labels");
+		FileInputStream f1 = new FileInputStream("Project/src/Data/train_labels");
 		DataInputStream in1 = new DataInputStream(f1);
 		int m= in.readInt();
 		int m1=in1.readInt();
