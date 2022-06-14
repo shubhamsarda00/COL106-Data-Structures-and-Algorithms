@@ -1,4 +1,4 @@
-package col106.bigassignment.index;
+package Project.src.index;
 
 public class MNIST_Image {
 	public int[][] img;
