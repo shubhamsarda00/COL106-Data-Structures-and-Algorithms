@@ -1,5 +1,5 @@
 
-package col106.assignment6;
+package Assignment6.src;
 
 import java.util.ArrayList;
 import java.util.HashMap;
