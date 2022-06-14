@@ -1,4 +1,4 @@
-import col106.assignment6.*;
+import Assignment6.src.*;
 
 import java.util.ArrayList;
 
