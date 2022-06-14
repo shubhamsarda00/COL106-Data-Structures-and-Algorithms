@@ -1,4 +1,4 @@
-package col106.bigassignment.classifier;
+package Project.src.classifier;
 
 import java.io.DataInputStream;
 import java.io.FileInputStream;
@@ -8,10 +8,10 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
 
-import col106.bigassignment.index.DistanceFunction;
-import col106.bigassignment.index.L2Dist;
-import col106.bigassignment.index.VPTreeImpl;
-import col106.bigassignment.index.MNIST_Image;
+import Project.src.index.DistanceFunction;
+import Project.src.index.L2Dist;
+import Project.src.index.VPTreeImpl;
+import Project.src.index.MNIST_Image;
 
 public class OneNNClassifier implements Classifier  {
 	public VPTreeImpl vp ;
