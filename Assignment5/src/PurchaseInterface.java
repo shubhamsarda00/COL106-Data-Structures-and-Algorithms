@@ -1,4 +1,4 @@
-package col106.assignment5;
+package Assignment5.src;
 
 interface PurchaseInterface{
 
