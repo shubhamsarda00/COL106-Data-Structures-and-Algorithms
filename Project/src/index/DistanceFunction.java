@@ -1,4 +1,4 @@
-package col106.bigassignment.index;
+package Project.src.index;
 
 //
 // Implement this interface on specific distance functions
