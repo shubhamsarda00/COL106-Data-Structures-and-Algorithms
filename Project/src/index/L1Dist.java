@@ -1,4 +1,4 @@
-package col106.bigassignment.index;
+package Project.src.index;
 
 public class L1Dist <T> implements DistanceFunction{
 
