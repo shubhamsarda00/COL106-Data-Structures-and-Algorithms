@@ -1,4 +1,4 @@
-package col106.assignment5;
+package Assignment5.src;
 
 public class ItemNode implements ItemInterface, Comparable<ItemNode>{
 	int num_of_trans=0;
