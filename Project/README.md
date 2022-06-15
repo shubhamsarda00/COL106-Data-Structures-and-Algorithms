@@ -1,6 +1,6 @@
 # Course Project
 
-In this project, we build an **efficient k-Nearest Neighbour (k-NN)** classifier by implementing **Vantange Point (VP) Trees**. VP Trees are more efficient than **KD trees** (conventionally used for k-NN algorithm) whose performance starts deteriorating as number of dimensions increase. 
+In this project, we build an **efficient k-Nearest Neighbour (k-NN)** classifier by implementing **Vantange Point (VP) Trees**. VP Trees are more efficient than **KD trees** (conventionally used for k-NN algorithm) as their performance starts deteriorating with increasing number of dimensions. 
 
 Our implementation of k-NN classifier has been trained and tested on MNIST dataset. By setting k=1, an accuracy of **95.6%** was obtained.
 
