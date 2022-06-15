@@ -117,6 +117,8 @@ public final class VPTreeImpl extends VPTree {
 		//	this.root=n;
 			
 		//}
+		// We get the data point of highest distance variance among a random set of points chosen from items list 
+		
 		item t=get_vantage_point(items);
 		//int[][] ry=(int[][])t.val;
 		//System.out.println(ry[0][0]);
@@ -329,6 +331,8 @@ public final class VPTreeImpl extends VPTree {
 				t.add(getDistanceFunc().distance(i.val, it.val));
 				
 			}
+			
+			// Quick select can be used to find median in expected O(n) 
 			Collections.sort(t);
 			double mu=t.get(t.size()/2);
 			double moment=0;
@@ -360,7 +364,7 @@ public final class VPTreeImpl extends VPTree {
 			
 		}
 		Collections.sort(d);
-		
+		// Quick select can be used to find median in expected O(n) 
 		if(d.size()%2==0) {
 			return (d.get((d.size()-1)/2)+d.get(d.size()/2))/2;
 		}
